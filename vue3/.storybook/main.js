@@ -9,5 +9,8 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/addon-coverage",
   ],
-  "framework": "@storybook/vue3"
+  "framework": "@storybook/vue3",
+  "core": {
+    "builder": "@storybook/builder-webpack5"
+  }
 }

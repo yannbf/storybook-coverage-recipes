@@ -1,0 +1,376 @@
+{
+  "/Users/yannbraga/open-source/storybook-coverage-recipes/web_components_typescript/.storybook/preview.js": {
+    "path": "/Users/yannbraga/open-source/storybook-coverage-recipes/web_components_typescript/.storybook/preview.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 10
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fcab85c2433d0ead9dd59a2bd711e5e0095fdc60"
+  },
+  "/Users/yannbraga/open-source/storybook-coverage-recipes/web_components_typescript/stories/Button.ts": {
+    "path": "/Users/yannbraga/open-source/storybook-coverage-recipes/web_components_typescript/stories/Button.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 30,
+          "column": 22
+        },
+        "end": {
+          "line": 43,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 31,
+          "column": 15
+        },
+        "end": {
+          "line": 31,
+          "column": 84
+        }
+      },
+      "2": {
+        "start": {
+          "line": 33,
+          "column": 2
+        },
+        "end": {
+          "line": 42,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 22
+          },
+          "end": {
+            "line": 30,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 98
+          },
+          "end": {
+            "line": 43,
+            "column": 1
+          }
+        },
+        "line": 30
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 34
+          },
+          "end": {
+            "line": 30,
+            "column": 56
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 30,
+              "column": 52
+            },
+            "end": {
+              "line": 30,
+              "column": 56
+            }
+          }
+        ],
+        "line": 30
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 15
+          },
+          "end": {
+            "line": 31,
+            "column": 84
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 31,
+              "column": 25
+            },
+            "end": {
+              "line": 31,
+              "column": 52
+            }
+          },
+          {
+            "start": {
+              "line": 31,
+              "column": 55
+            },
+            "end": {
+              "line": 31,
+              "column": 84
+            }
+          }
+        ],
+        "line": 31
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 56
+          },
+          "end": {
+            "line": 36,
+            "column": 72
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 36,
+              "column": 56
+            },
+            "end": {
+              "line": 36,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 36,
+              "column": 64
+            },
+            "end": {
+              "line": 36,
+              "column": 72
+            }
+          }
+        ],
+        "line": 36
+      }
+    },
+    "s": {
+      "0": 10,
+      "1": 25,
+      "2": 25
+    },
+    "f": {
+      "0": 25
+    },
+    "b": {
+      "0": [
+        25
+      ],
+      "1": [
+        8,
+        17
+      ],
+      "2": [
+        25,
+        9
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "cb7a481a3fafe44baa1e7fd91030b9ecfb3ae102"
+  },
+  "/Users/yannbraga/open-source/storybook-coverage-recipes/web_components_typescript/stories/Header.ts": {
+    "path": "/Users/yannbraga/open-source/storybook-coverage-recipes/web_components_typescript/stories/Header.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 13,
+          "column": 22
+        },
+        "end": {
+          "line": 52,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 85
+        },
+        "end": {
+          "line": 52,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 22
+          },
+          "end": {
+            "line": 13,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 85
+          },
+          "end": {
+            "line": 52,
+            "column": 1
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 10
+          },
+          "end": {
+            "line": 48,
+            "column": 16
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 12
+            },
+            "end": {
+              "line": 37,
+              "column": 74
+            }
+          },
+          {
+            "start": {
+              "line": 38,
+              "column": 12
+            },
+            "end": {
+              "line": 48,
+              "column": 16
+            }
+          }
+        ],
+        "line": 36
+      }
+    },
+    "s": {
+      "0": 10,
+      "1": 8
+    },
+    "f": {
+      "0": 8
+    },
+    "b": {
+      "0": [
+        5,
+        3
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2b10b29a7e1c5aa55adae5347f45988cfcfd683f"
+  },
+  "/Users/yannbraga/open-source/storybook-coverage-recipes/web_components_typescript/stories/Page.ts": {
+    "path": "/Users/yannbraga/open-source/storybook-coverage-recipes/web_components_typescript/stories/Page.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 12,
+          "column": 20
+        },
+        "end": {
+          "line": 68,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 81
+        },
+        "end": {
+          "line": 68,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 20
+          },
+          "end": {
+            "line": 12,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 81
+          },
+          "end": {
+            "line": 68,
+            "column": 1
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 10,
+      "1": 5
+    },
+    "f": {
+      "0": 5
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "09d1de933f5fa51d525c8a06eb7e2bd60c24c8a7"
+  }
+}

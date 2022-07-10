@@ -1,23 +1,15 @@
+# react-vite
+
+## install vite-plugin-istanbul
+
+```js
+// .storybook/main.js
 const istanbul = require('vite-plugin-istanbul');
+// get default config from addon-coverage – no need to register it
 const constants = require('@storybook/addon-coverage/dist/cjs/constants');
 
 module.exports = {
-  "stories": [
-    "../src/**/*.stories.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx)"
-  ],
-  "addons": [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
-  ],
-  "framework": "@storybook/react",
-  "core": {
-    "builder": "@storybook/builder-vite"
-  },
-  "features": {
-    "storyStoreV7": true
-  },
+  // ...
   async viteFinal(config) {
     config.plugins.push(istanbul({
       exclude: constants.defaultExclude,
@@ -27,3 +19,4 @@ module.exports = {
     return config;
   },
 }
+```
