@@ -1,19 +1,15 @@
-# Storybook Reproduction Templates
+# Storybook Coverage Recipes
 
-![Storybook Latest Badge](https://img.shields.io/npm/v/@storybook/react/latest)
+This repository serves as an example of projects using the Storybook test runner (`@storybook/test-runner`) to generate code coverage for the components that render in Storybook, as well as the necessary steps to setup the coverage correctly, which may vary between projects of different frameworks and builders (Webpack, Vite).
 
-The repros have been generated with the latest stable version of Storybook.
-If you want to try the cutting edge version go on the `next` branch. 
-
-Preview any repro live on [StackBlitz](http://stackblitz.com/):
-
-- [Angular](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/angular?preset=node)
-- [React](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/react?preset=node)
-- [Create React App](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/cra?preset=node)
-- [Create React App + TypeScript](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/cra_typescript?preset=node)
-- [Lit 2](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/web_components_lit2?preset=node)
-- [HTML](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/html?preset=node)
-- [Preact](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/preact?preset=node)
-- [Svelte](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/svelte?preset=node)
-- [Vue](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/vue?preset=node)
-- [Vue 3](https://stackblitz.com/github/storybookjs/repro-templates/tree/main/vue3?preset=node)
+- [Angular](https://github.com/yannbf/storybook-coverage-recipes/tree/main/angular)
+- [React](https://github.com/yannbf/storybook-coverage-recipes/tree/main/react)
+- [React + Vite](https://github.com/yannbf/storybook-coverage-recipes/tree/main/react_vite)
+- [Create React App + TypeScript](https://github.com/yannbf/storybook-coverage-recipes/tree/main/cra_typescript)
+- [Lit 2](https://github.com/yannbf/storybook-coverage-recipes/tree/main/web_components_typescript)
+- [HTML](https://github.com/yannbf/storybook-coverage-recipes/tree/main/html)
+- [Preact](https://github.com/yannbf/storybook-coverage-recipes/tree/main/preact)
+- [Svelte](https://github.com/yannbf/storybook-coverage-recipes/tree/main/svelte)
+- [Svelte + Vite](https://github.com/yannbf/storybook-coverage-recipes/tree/main/svelte_vite)
+- [Vue](https://github.com/yannbf/storybook-coverage-recipes/tree/main/vue)
+- [Vue 3](https://github.com/yannbf/storybook-coverage-recipes/tree/main/vue3)
