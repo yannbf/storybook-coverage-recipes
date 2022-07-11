@@ -1,6 +1,8 @@
 # Angular
 
-Add `istanbul-instrumenter-loader`
+## Setting up coverage
+
+Install `istanbul-instrumenter-loader` and register it as part of Storybook's webpack config:
 
 ```js
 // .storybook/main.js
@@ -29,6 +31,14 @@ module.exports = {
     return config;
   }
 }
+```
+
+## Generating coverage
+
+You will need to have the `@storybook/test-runner` installed. After that, just run the following command:
+
+```sh
+yarn test-storybook --coverage
 ```
 
 ![](coverage-cli.png)
