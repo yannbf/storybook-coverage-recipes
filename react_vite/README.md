@@ -1,6 +1,14 @@
 # react-vite
 
-## install vite-plugin-istanbul
+### Bug
+
+Because of this line of code in nyc: https://github.com/istanbuljs/nyc/blob/ab7c53b2f340b458789a746dff2abd3e2e4790c3/index.js#L433
+If that line of code is commented out, then it works correctly. My feeling is that sourcemaps are not working properly in React + Storybook. 
+
+## Configuration steps
+
+Install `vite-plugin-istanbul` and register it in your `.storybook/main.js` file.
+Optionally, use defaults from `@storybook/addon-coverage/dist/cjs/constants` so you can exclude files.
 
 ```js
 // .storybook/main.js
@@ -20,3 +28,5 @@ module.exports = {
   },
 }
 ```
+
+![](coverage-cli.png)
