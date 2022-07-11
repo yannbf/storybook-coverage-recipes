@@ -1,5 +1,6 @@
 # Vue
 
+- [Open in stackblitz](https://stackblitz.com/github/yannbf/storybook-coverage-recipes/tree/main/vue?preset=node)
 
 ### Bug
 

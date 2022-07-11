@@ -1,5 +1,7 @@
 # React Webpack
 
+- [Open in stackblitz](https://stackblitz.com/github/yannbf/storybook-coverage-recipes/tree/main/react?preset=node)
+
 ## Setting up coverage
 
 Install the `@storybook/addon-coverage` addon and register it. That's it!

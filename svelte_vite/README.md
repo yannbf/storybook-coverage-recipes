@@ -1,5 +1,7 @@
 # Svelte + Vite
 
+- [Open in stackblitz](https://stackblitz.com/github/yannbf/storybook-coverage-recipes/tree/main/svelte_vite?preset=node)
+
 ### Bug
 
 Because of this line of code in nyc: https://github.com/istanbuljs/nyc/blob/ab7c53b2f340b458789a746dff2abd3e2e4790c3/index.js#L433

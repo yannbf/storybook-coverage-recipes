@@ -1,4 +1,6 @@
-# vue3
+# Vue3
+
+- [Open in stackblitz](https://stackblitz.com/github/yannbf/storybook-coverage-recipes/tree/main/vue3?preset=node)
 
 ## Setting up coverage
 
