@@ -1,5 +1,6 @@
 const istanbul = require('vite-plugin-istanbul');
 const constants = require('@storybook/addon-coverage/dist/cjs/constants');
+const { mergeConfig } = require('vite');
 
 module.exports = {
   "stories": [
@@ -19,11 +20,17 @@ module.exports = {
     "storyStoreV7": true
   },
   async viteFinal(config) {
-    config.plugins.push(istanbul({
-      exclude: constants.defaultExclude,
-      extension: constants.defaultExtensions
-    }));
-    // customize the Vite config here
-    return config;
+    return mergeConfig(config, {
+      // customize the Vite config here
+      build: {
+        sourcemap: true
+      },
+      plugins: [
+        istanbul({
+          exclude: constants.defaultExclude,
+          extension: constants.defaultExtensions
+        })
+      ]
+    });
   },
 }

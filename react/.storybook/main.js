@@ -9,5 +9,14 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/addon-coverage",
   ],
-  "framework": "@storybook/react"
+  "framework": "@storybook/react",
+  features: {
+    storyStoreV7: true,
+  }
+  // Unecessary, this is just for debugging purposes. Ignore this!
+  // webpackFinal: async(config) => {
+  //   config.devtool = 'source-map'
+
+  //   return config
+  // }
 }
