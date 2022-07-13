@@ -34,11 +34,18 @@ Because vue uses a different file extension, you need to setup a `nycrc.json` fi
 
 ## Generating coverage
 
-You will need to have the `@storybook/test-runner` installed. After that, just run the following command:
+You will need to have the `@storybook/test-runner` installed. The test runner visits a running Storybook, so you will have to run Storybook and after that, execute the test runner with the `--coverage` flag enabled:
+
+```sh
+yarn storybook
+```
+then
 
 ```sh
 yarn test-storybook --coverage
 ```
+
+As a result, you should see the report in the CLI:
 
 
 
