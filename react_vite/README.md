@@ -2,11 +2,6 @@
 
 - [Open in stackblitz](https://stackblitz.com/github/yannbf/storybook-coverage-recipes/tree/main/react_vite?preset=node)
 
-### Bug
-
-Because of this line of code in nyc: https://github.com/istanbuljs/nyc/blob/ab7c53b2f340b458789a746dff2abd3e2e4790c3/index.js#L433
-If that line of code is commented out, then it works correctly. My feeling is that sourcemaps are not working properly in React + Storybook. 
-
 ## Setting up coverage
 
 Install `vite-plugin-istanbul` and register it in your `.storybook/main.js` file.
