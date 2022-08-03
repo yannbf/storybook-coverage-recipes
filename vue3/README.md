@@ -24,7 +24,7 @@ Once you've done that, you should check whether the instrumentation is happening
 
 ### Setup nycrc.json
 
-Because vue uses a different file extension, you need to setup a `nycrc.json` file to tell nyc to consider vue files:
+Because vue uses a different file extension, you need to setup a `.nycrc.json` file to tell nyc to consider vue files:
 
 ```json
 {
