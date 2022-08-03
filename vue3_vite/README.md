@@ -1,6 +1,6 @@
-# Svelte + Vite
+# Vue3 + Vite
 
-- [Open in stackblitz](https://stackblitz.com/github/yannbf/storybook-coverage-recipes/tree/main/svelte_vite?preset=node)
+- [Open in stackblitz](https://stackblitz.com/github/yannbf/storybook-coverage-recipes/tree/main/vue3_vite?preset=node)
 
 ## Setting up coverage
 
@@ -68,11 +68,11 @@ Once you've done that, you should check whether the instrumentation is happening
 
 ### Setup nycrc.json
 
-Because svelte uses a different file extension, you need to setup a `nycrc.json` file to tell nyc to consider svelte files:
+Because svelte uses a different file extension, you need to setup a `nycrc.json` file to tell nyc to consider vue files:
 
 ```json
 {
-  "extension": [".svelte"]
+  "extension": [".vue"]
 }
 ```
 
