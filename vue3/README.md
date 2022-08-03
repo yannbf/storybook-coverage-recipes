@@ -1,4 +1,4 @@
-# Vue3
+# Vue3 + Webpack
 
 - [Open in stackblitz](https://stackblitz.com/github/yannbf/storybook-coverage-recipes/tree/main/vue3?preset=node)
 
