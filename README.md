@@ -16,6 +16,6 @@ This repository serves as an example of projects using the Storybook test runner
 
 ## Vite
 
-- [React + Vite](https://github.com/yannbf/storybook-coverage-recipes/tree/main/react_vite)
-- [Svelte + Vite](https://github.com/yannbf/storybook-coverage-recipes/tree/main/svelte_vite)
-- [Vue 3 + Vite](https://github.com/yannbf/storybook-coverage-recipes/tree/main/vue3_vite)
+- [React](https://github.com/yannbf/storybook-coverage-recipes/tree/main/react_vite)
+- [Svelte](https://github.com/yannbf/storybook-coverage-recipes/tree/main/svelte_vite)
+- [Vue 3](https://github.com/yannbf/storybook-coverage-recipes/tree/main/vue3_vite)
