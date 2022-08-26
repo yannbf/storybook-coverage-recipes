@@ -24,7 +24,7 @@
     "@storybook/addon-links": "^6.5.6",
     "@storybook/builder-webpack4": "^6.5.6",
     "@storybook/manager-webpack4": "^6.5.6",
-    "@storybook/test-runner": "^0.3.0",
+    "@storybook/test-runner": "^0.7.0",
     "@storybook/testing-library": "^0.0.11",
     "@storybook/vue": "^6.5.6",
     "@vue/cli-plugin-babel": "~4.5.17",
@@ -34,7 +34,6 @@
     "babel-loader": "^8.2.5",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "jest": "27",
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.11"
   },

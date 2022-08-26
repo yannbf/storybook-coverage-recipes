@@ -23,12 +23,11 @@
     "@storybook/addon-links": "^6.5.9",
     "@storybook/builder-vite": "^0.2.2",
     "@storybook/jest": "^0.0.10",
-    "@storybook/test-runner": "^0.5.0",
+    "@storybook/test-runner": "^0.7.0",
     "@storybook/testing-library": "^0.0.13",
     "@storybook/vue3": "^6.5.9",
     "@vitejs/plugin-vue": "^3.0.0",
     "babel-loader": "^8.2.5",
-    "jest": "^27.5.1",
     "vite": "^3.0.0",
     "vite-plugin-istanbul": "^2.9.0",
     "vue-loader": "^16.8.3"
