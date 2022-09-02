@@ -1,4 +1,4 @@
-import { Story, Meta } from '@storybook/angular'
+import { StoryFn, Meta } from '@storybook/angular'
 import { within, userEvent } from '@storybook/testing-library'
 
 import Page from './page.component'
@@ -12,7 +12,7 @@ export default {
   },
 } as Meta
 
-const Template: Story<Page> = (args: Page) => ({
+const Template: StoryFn<Page> = (args: Page) => ({
   props: args,
 })
 

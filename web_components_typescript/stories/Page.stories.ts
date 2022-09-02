@@ -1,12 +1,12 @@
-import { Story, Meta } from '@storybook/web-components';
-import { Page, PageProps } from './Page';
-import * as HeaderStories from './Header.stories';
+import { StoryFn, Meta } from "@storybook/web-components";
+import { Page, PageProps } from "./Page";
+import * as HeaderStories from "./Header.stories";
 
 export default {
-  title: 'Example/Page',
+  title: "Example/Page",
 } as Meta;
 
-const Template: Story<Partial<PageProps>> = (args) => Page(args);
+const Template: StoryFn<Partial<PageProps>> = (args) => Page(args);
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {

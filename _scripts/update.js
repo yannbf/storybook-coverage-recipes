@@ -5,7 +5,7 @@ const path = require('path');
 const exec = util.promisify(require('child_process').exec);
 
 const root = path.join(__dirname, '..');
-const disallowList = ['_scripts', '.git', '.vscode']
+const disallowList = ['_scripts', '.git', '.vscode', '.cache']
 const folders = fs.readdirSync(root)
   .filter(f => !disallowList.find(filter => filter === f))
   .filter(f => fs.lstatSync(f).isDirectory());

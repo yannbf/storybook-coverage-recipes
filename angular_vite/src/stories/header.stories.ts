@@ -1,4 +1,4 @@
-import type { Story, Meta } from '@storybook/angular'
+import type { StoryFn, Meta } from '@storybook/angular'
 
 import Header from './header.component'
 
@@ -11,7 +11,7 @@ export default {
   },
 } as Meta
 
-const Template: Story<Header> = (args: Header) => ({
+const Template: StoryFn<Header> = (args: Header) => ({
   props: args,
 })
 
