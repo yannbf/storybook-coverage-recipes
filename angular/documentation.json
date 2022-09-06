@@ -535,7 +535,7 @@
                 "file": "src/stories/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<Button>",
+                "type": "StoryFn<Button>",
                 "defaultValue": "(args: Button) => ({\n  props: args,\n})"
             },
             {
@@ -545,7 +545,7 @@
                 "file": "src/stories/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<Header>",
+                "type": "StoryFn<Header>",
                 "defaultValue": "(args: Header) => ({\n  props: args,\n})"
             },
             {
@@ -555,7 +555,7 @@
                 "file": "src/stories/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<Page>",
+                "type": "StoryFn<Page>",
                 "defaultValue": "(args: Page) => ({\n  props: args,\n})"
             }
         ],
@@ -635,7 +635,7 @@
                     "file": "src/stories/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<Button>",
+                    "type": "StoryFn<Button>",
                     "defaultValue": "(args: Button) => ({\n  props: args,\n})"
                 }
             ],
@@ -667,7 +667,7 @@
                     "file": "src/stories/Header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<Header>",
+                    "type": "StoryFn<Header>",
                     "defaultValue": "(args: Header) => ({\n  props: args,\n})"
                 }
             ],
@@ -699,7 +699,7 @@
                     "file": "src/stories/Page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story<Page>",
+                    "type": "StoryFn<Page>",
                     "defaultValue": "(args: Page) => ({\n  props: args,\n})"
                 }
             ]
