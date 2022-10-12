@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@storybook/addon-actions": "^6.5.9",
-    "@storybook/addon-coverage": "^0.0.2",
+    "@storybook/addon-coverage": "^0.0.5",
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",

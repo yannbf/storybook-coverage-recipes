@@ -2706,7 +2706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@istanbuljs/load-nyc-config@npm:^1.0.0":
+"@istanbuljs/load-nyc-config@npm:^1.0.0, @istanbuljs/load-nyc-config@npm:^1.1.0":
   version: 1.1.0
   resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
   dependencies:
@@ -3497,13 +3497,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-coverage@npm:^0.0.2":
-  version: 0.0.2
-  resolution: "@storybook/addon-coverage@npm:0.0.2"
+"@storybook/addon-coverage@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@storybook/addon-coverage@npm:0.0.5"
   dependencies:
     "@types/babel__core": ^7.1.19
     babel-plugin-istanbul: ^6.1.1
-  checksum: ead2fda50124830461ced1122f2fcb7aa9881e1f53e005587d34548207ff5177574102ff26ffe327eae9f3c08af2507ba23adda28e79277b5170443415b896e9
+    vite-plugin-istanbul: ^3.0.1
+  checksum: 44b9b594ccb2d80dfaf15fb90bd13273e65c2c478d1c049bc23c0a85f7ee79091e2f29293ef90639a51e3a7b94332df75b86bae2a2fb38c26e1d6ff74f2e639a
   languageName: node
   linkType: hard
 
@@ -6170,7 +6171,7 @@ __metadata:
     "@compodoc/compodoc": ^1.1.19
     "@mdx-js/react": ^1.6.22
     "@storybook/addon-actions": ^6.5.6
-    "@storybook/addon-coverage": ^0.0.2
+    "@storybook/addon-coverage": ^0.0.5
     "@storybook/addon-docs": ^6.5.6
     "@storybook/addon-essentials": ^6.5.6
     "@storybook/addon-interactions": ^6.5.6
@@ -20312,6 +20313,18 @@ __metadata:
     unist-util-stringify-position: ^2.0.0
     vfile-message: ^2.0.0
   checksum: ee5726e10d170472cde778fc22e0f7499caa096eb85babea5d0ce0941455b721037ee1c9e6ae506ca2803250acd313d0f464328ead0b55cfe7cb6315f1b462d6
+  languageName: node
+  linkType: hard
+
+"vite-plugin-istanbul@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "vite-plugin-istanbul@npm:3.0.1"
+  dependencies:
+    "@istanbuljs/load-nyc-config": ^1.1.0
+    istanbul-lib-instrument: ^5.1.0
+    picocolors: ^1.0.0
+    test-exclude: ^6.0.0
+  checksum: e89c492ed7396b66ece98b0b439d9c7bac7fe0c9856c224da641672586f5adb627a289a6234a11754c8e12746a32373a117e1606a8b69568873e1ca807e9a082
   languageName: node
   linkType: hard
 

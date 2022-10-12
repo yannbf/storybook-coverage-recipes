@@ -6,46 +6,16 @@ This project was generated with [Analog](https://npmjs.com/package/create-analog
 
 ## Setting up coverage
 
-Install `vite-plugin-istanbul` and register it in your `.storybook/main.js` file.
-Optionally, use defaults from `@storybook/addon-coverage/dist/cjs/constants` so you can exclude files.
+Install the `@storybook/addon-coverage` addon and register it. That's it!
 
 ```js
 // .storybook/main.js
-const { mergeConfig } = require('vite');
-const angular = require('@analogjs/vite-plugin-angular');
-const istanbul = require('vite-plugin-istanbul');
-// get default config from addon-coverage – no need to register it
-const constants = require('@storybook/addon-coverage/dist/cjs/constants');
-
 module.exports = {
-  // ...
-  async viteFinal(config) {
-    // return the customized config
-    return mergeConfig(config, {
-      root: 'src',
-      publicDir: 'assets',
-      resolve: {
-        mainFields: ['module'],
-      },
-      plugins: [
-        angular.default(),
-        istanbul({
-          exclude: constants.defaultExclude,
-          extension: constants.defaultExtensions
-        })],
-    });
-  },
+  addons: ["@storybook/addon-coverage"]
 }
 ```
 
-Once you've done that, you should check whether the instrumentation is happening correctly. To do so:
-
-1. Open your Storybook
-2. Open developer tools
-3. Select the `storybook-preview-iframe` as a target
-4. Type `__coverage__` and see if it evaluates to an object containing information about your components. If it does, then you're good to go!
-
-![](coverage-object.png)
+Once you've done that, you should check whether the instrumentation is happening correctly. When you run `start-storybook`, you should see a log in the terminal saying "Adding istanbul plugin to vite config".
 
 ## Generating coverage
 

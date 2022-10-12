@@ -13,22 +13,15 @@ module.exports = {
 }
 ```
 
-Once you've done that, you should check whether the instrumentation is happening correctly. To do so:
-
-1. Open your Storybook
-2. Open developer tools
-3. Select the `storybook-preview-iframe` as a target
-4. Type `__coverage__` and see if it evaluates to an object containing information about your components. If it does, then you're good to go!
-
-![](coverage-object.png)
+Once you've done that, you should check whether the instrumentation is happening correctly. When you run `start-storybook`, you should see a log in the terminal saying "Adding istanbul plugin to babel config".
 
 ### Setup nycrc.json
 
-Because vue uses a different file extension, you need to setup a `.nycrc.json` file to tell nyc to consider vue files:
+Because vue uses a different file extension, you need to setup a `.nycrc.json` file to tell nyc to consider vue files, alongside other extensions you want to be included:
 
 ```json
 {
-  "extension": [".vue"]
+  "extension": [".vue", ".js", "jsx", ".ts", "tsx"]
 }
 ```
 
