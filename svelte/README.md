@@ -1,3 +1,0 @@
-# Svelte + Webpack
-
-TODO
