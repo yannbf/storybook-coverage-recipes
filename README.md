@@ -10,7 +10,6 @@ This repository serves as an example of projects using the Storybook test runner
 - [Lit 2](https://github.com/yannbf/storybook-coverage-recipes/tree/main/web_components_typescript)
 - [HTML](https://github.com/yannbf/storybook-coverage-recipes/tree/main/html)
 - [Preact](https://github.com/yannbf/storybook-coverage-recipes/tree/main/preact)
-- [Svelte](https://github.com/yannbf/storybook-coverage-recipes/tree/main/svelte)
 - [Vue](https://github.com/yannbf/storybook-coverage-recipes/tree/main/vue)
 - [Vue 3](https://github.com/yannbf/storybook-coverage-recipes/tree/main/vue3)
 
