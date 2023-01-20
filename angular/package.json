@@ -30,6 +30,7 @@
     "@angular/compiler-cli": "~13.3.0",
     "@babel/core": "^7.18.2",
     "@compodoc/compodoc": "^1.1.19",
+    "@jsdevtools/coverage-istanbul-loader": "^3.0.5",
     "@mdx-js/react": "^1.6.22",
     "@storybook/addon-actions": "^6.5.6",
     "@storybook/addon-coverage": "^0.0.5",
@@ -44,7 +45,6 @@
     "@storybook/testing-library": "^0.0.11",
     "@types/node": "^12.11.1",
     "babel-loader": "^8.2.5",
-    "istanbul-instrumenter-loader": "^3.0.1",
     "typescript": "~4.6.2"
   },
   "packageManager": "yarn@3.2.1"
